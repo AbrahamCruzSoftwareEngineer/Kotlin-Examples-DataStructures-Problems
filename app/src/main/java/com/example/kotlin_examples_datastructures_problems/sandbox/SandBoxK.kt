@@ -1,8 +1,15 @@
 package com.example.kotlin_examples_datastructures_problems.sandbox
 
-class SandBoxK {
+fun main() {
+    val someSolutionClass = SomeSolutionClass()
+    println(someSolutionClass.someSolutionFunction("hello World"))
 }
 
-fun main() {
-    println("Hello Sandbox")
+class SomeSolutionClass {
+    fun someSolutionFunction(string: String): String {
+        return string
+    }
 }
+
+
+
